@@ -1,0 +1,60 @@
+/* File: assets/css/frontend.css */
+
+.nig-notice {
+    background-color: #f0f8ff;
+    border-left: 4px solid #00a0d2;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.nig-loading {
+    text-align: center;
+    padding: 20px;
+}
+
+.nig-spinner {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: #3498db;
+    animation: nig-spin 1s ease-in-out infinite;
+}
+
+@keyframes nig-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nig-error {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.nig-images-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.nig-image-item {
+    flex: 0 0 calc(50% - 15px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nig-image-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .nig-image-item {
+        flex: 0 0 100%;
+    }
+}

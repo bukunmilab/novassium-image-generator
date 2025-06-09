@@ -1,0 +1,15 @@
+.nig-gutenberg-block {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.nig-gutenberg-block textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.nig-gutenberg-block button {
+    padding: 8px 16px;
+}
